@@ -1,0 +1,10 @@
+import pandas as pd
+data= pd.Series([range(1,10),range(11,20),range(21,30)])
+print(data)
+print(data[0])
+print(data[1])
+print(data[2])
+print(data[0][0])
+print(data[1][0])
+print(data[2][0])
+print(data[0][1])       
