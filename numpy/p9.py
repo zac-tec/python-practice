@@ -1,0 +1,40 @@
+#mathematical operations
+import numpy as np  
+a = np.array([[1,2,3],
+              [4,5,6],
+              [7,8,9]])
+
+#make all operations along with a print message
+print("Original array:")
+print(a)
+print("\nAddition of 2:")
+print(a + 2)
+print("\nSubtraction of 2:")
+print(a - 2)
+print("\nMultiplication by 2:")
+print(a * 2)
+print("\nDivision by 2:")
+print(a / 2)
+print("\nSquare of each element:")
+print(a ** 2)
+print("\nSquare root of each element:")
+print(np.sqrt(a))
+print("\nMean of the array:")
+print(np.mean(a))
+print("\nStandard deviation of the array:")
+print(np.std(a))
+print("\nSum of all elements:")
+print(np.sum(a))
+print("\nMinimum element in the array:")
+print(np.min(a))
+print("\nMaximum element in the array:")
+print(np.max(a))
+print("\nMedian of the array:")
+print(np.median(a))
+print("\nUnique elements in the array:")
+print(np.unique(a))
+print("index of the maximum element in the array:")
+print(np.argmax(a))
+print("\nIndex of the minimum element in the array:")
+print(np.argmin(a))
+
